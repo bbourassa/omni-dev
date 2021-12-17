@@ -1,0 +1,65 @@
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html"><span class="goldtext">OMNI</span>GYM</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href='' [ngClass]="{active: router.url === '/'}" class="nav-link smoothScroll">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href='/about-us' [ngClass]="{active: router.url === '/about-us'}" class="nav-link smoothScroll">Who We Are</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/programs" [ngClass]="{active: router.url === '/programs'}" class="nav-link smoothScroll">What We Believe In</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/spotlight" [ngClass]="{active: router.url === '/spotlight'}" class="nav-link smoothScroll">What We're Up To</a>
+                    </li>
+                </ul>
+
+                <ul class="social-icon ml-lg-3">
+                    <li><a href="https://www.facebook.com/profile.php?id=100015153159445" class="fa fa-facebook"></a></li>
+                    <li><a href="https://twitter.com/bnboura" class="fa fa-twitter"></a></li>
+                    <li><a href="https://www.instagram.com/bnboura/?hl=en" class="fa fa-instagram"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+<router-outlet></router-outlet>
+
+     <!-- FOOTER -->
+     <footer class="site-footer">
+        <div class="container">
+             <div class="row">
+
+                  <div class="ml-auto col-lg-4 col-md-5">
+                      <p class="copyright-text">Copyright &copy; 2021 OmniGym
+                      
+                      <br>Design: <a href="https://www.tooplate.com">Tooplate, Britney Bourassa</a></p>
+                  </div>
+
+                  <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                      <p class="mr-4">
+                          <i class="fa fa-envelope-o mr-1"></i>
+                          <a href="#">hello@company.co</a>
+                      </p>
+
+                      <p><i class="fa fa-phone mr-1"></i> 010-020-0840</p>
+                  </div>
+                  
+             </div>
+        </div>
+   </footer>
