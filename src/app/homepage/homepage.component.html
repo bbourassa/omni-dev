@@ -115,13 +115,16 @@
                 <h2 class="mb-4 pb-2 contact-text" data-aos="fade-up" data-aos-delay="200"><span
                         class="goldtext">CONTACT </span>US</h2>
 
-                <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400"
+                <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)" class="contact-form webform" data-aos="fade-up" data-aos-delay="400"
                     role="form">
-                    <input type="text" class="form-control" name="cf-name" placeholder="Name">
+                    <input type="text" class="form-control" name="name" formControlName="name" placeholder="Name">
 
-                    <input type="email" class="form-control" name="cf-email" placeholder="Email">
+                    <input type="email" class="form-control" name="email" formControlName="email" placeholder="Email">
 
-                    <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea>
+                    <textarea class="form-control" rows="5" name="message" formControlName="message" placeholder="Message"></textarea>
+
+                    <small id="messageAlertSuccess" class="form-text text-muted" style="display:none">Your message has been sent. We will get back to you soon.</small>
+                    <small id="messageAlertFailure" class="form-text text-muted" style="display:none">It looks like something has gone wrong on our end. Please try submitting again.</small>
 
                     <button type="submit" class="form-control" id="submit-button" name="submit">Send Message</button>
                 </form>
