@@ -9,6 +9,6 @@ export class MessageService {
   constructor(private _http: HttpClient) { }
 
   sendMessage(body: any) {
-      return this._http.post('http://omnigym.herokuapp.com/sendmail', body);
+      return this._http.post('https://omnigym.herokuapp.com/sendmail', body);
   }
 }
