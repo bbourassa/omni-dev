@@ -22,20 +22,20 @@ export class HomepageComponent implements OnInit {
     });  
   }
 
-  onSubmit(FormData: any) {
-    this.message.sendMessage(FormData).subscribe(res => {
-        document.getElementById("messageAlertSuccess")!.style.display = "block";
-        setTimeout(function () {
-            document.getElementById("messageAlertSuccess")!.style.display='none';
-        }, 5000);
-    }, error => {
-        document.getElementById("messageAlertFailure")!.style.display = "block";
-        setTimeout(function () {
-            document.getElementById("messageAlertFailure")!.style.display='none';
-        }, 5000);
-    });
-    console.log('hit');
-    console.log(FormData);
-  }
+//  onSubmit(FormData: any) {
+//    this.message.sendMessage(FormData).subscribe(res => {
+//        document.getElementById("messageAlertSuccess")!.style.display = "block";
+//        setTimeout(function () {
+//            document.getElementById("messageAlertSuccess")!.style.display='none';
+//        }, 5000);
+//    }, error => {
+//        document.getElementById("messageAlertFailure")!.style.display = "block";
+//        setTimeout(function () {
+//            document.getElementById("messageAlertFailure")!.style.display='none';
+//        }, 5000);
+//    });
+//    console.log('hit');
+//    console.log(FormData);
+//  }
 
 }

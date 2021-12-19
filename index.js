@@ -22,37 +22,37 @@ app.use(bodyParser.urlencoded({
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
-const sendMail = (user, callback) => {
-    console.log(user);
-    const transporter = nodemailer.createTransport({
-      host: "smtp.gmail.com",
-      port: 587,
-      secure: false,
-      auth: {
-        user: "bnboura3@gmail.com",
-        pass: "thisistemp"
-      }
-    });
+//const sendMail = (user, callback) => {
+//    console.log(user);
+//    const transporter = nodemailer.createTransport({
+//      host: "smtp.gmail.com",
+//      port: 587,
+//      secure: false,
+//      auth: {
+//        user: "bnboura3@gmail.com",
+//        pass: "thisistemp"
+//      }
+//    });
 
-    const mailOptions = {
-        from: user.email,
-        to: 'bnboura3@gmail.com',
-        subject: "Gym Inquiry",
-        html: `<h2>You Have a New Inquiry from ${user.name}:</h1><br>
-        <h3>Contact Email: ${user.email}</h3>
-        <p>${user.message}</p>`
-      };
+//    const mailOptions = {
+//        from: user.email,
+//        to: 'bnboura3@gmail.com',
+//        subject: "Gym Inquiry",
+//        html: `<h2>You Have a New Inquiry from ${user.name}:</h1><br>
+//        <h3>Contact Email: ${user.email}</h3>
+//        <p>${user.message}</p>`
+//      };
     
-    const mailReceipt = {
-        from: user.email,
-        to: user.email,
-        subject: "Thank You For Your Inquiry!",
-        html: `<p>Thank you for your inquiry to Omnigym. We will get back to you as soon as possible.</p>` 
-    }
+//    const mailReceipt = {
+//        from: user.email,
+//        to: user.email,
+//        subject: "Thank You For Your Inquiry!",
+//        html: `<p>Thank you for your inquiry to Omnigym. We will get back to you as soon as possible.</p>` 
+//    }
       
-      transporter.sendMail(mailOptions, callback);
-      transporter.sendMail(mailReceipt, callback);
-  }
+//      transporter.sendMail(mailOptions, callback);
+//      transporter.sendMail(mailReceipt, callback);
+//  }
 
 app.use(cors());
 
