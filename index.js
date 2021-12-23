@@ -94,9 +94,9 @@ app.post("/sendmail", (req, res) => {
     });
   });
 
-//app.get('/main-menu', (req, res) => {
-//    res.sendFile(path.resolve(__dirname,'dist/trip-planner/index.html'));
-//});
+app.get('/about-us', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'dist/omni-dev'));
+});
 
 //app.get('/trip-create', (req, res) => {
 //    res.sendFile(path.resolve(__dirname,'dist/trip-planner/index.html'));
