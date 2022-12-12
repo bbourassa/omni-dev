@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { MessageService } from '../message.service';
 
@@ -10,15 +10,15 @@ import { MessageService } from '../message.service';
 })
 export class HomepageComponent implements OnInit {
   
-  FormData!: FormGroup;
+  FormData!: UntypedFormGroup;
 
-  constructor(private builder: FormBuilder, private message: MessageService) { }
+  constructor(private builder: UntypedFormBuilder, private message: MessageService) { }
 
   ngOnInit(): void {
     this.FormData = this.builder.group({
-        name: new FormControl('', [Validators.required]),
-        email: new FormControl('', [Validators.required]),
-        message: new FormControl('', [Validators.required])
+        name: new UntypedFormControl('', [Validators.required]),
+        email: new UntypedFormControl('', [Validators.required]),
+        message: new UntypedFormControl('', [Validators.required])
     });  
   }
 
