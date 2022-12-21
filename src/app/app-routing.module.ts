@@ -13,7 +13,7 @@ const appRoutes: Routes = [
     { path: 'about-us', component: AboutUsComponent, runGuardsAndResolvers: 'always' },
     { path: 'contact', component: ContactComponent, runGuardsAndResolvers: 'always' },
     { path: 'homepage', component: HomepageComponent, runGuardsAndResolvers: 'always' },
-    { path: 'programs', component: ProgramsComponent, runGuardsAndResolvers: 'always' },
+    { path: 'training', component: ProgramsComponent, runGuardsAndResolvers: 'always' },
     { path: 'spotlight', component: SpotlightComponent, runGuardsAndResolvers: 'always' }
 ]
 
