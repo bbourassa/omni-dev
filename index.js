@@ -98,13 +98,13 @@ app.get('/about-us', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'dist/omni-dev/index.html'));
 });
 
-//app.get('/trip-create', (req, res) => {
-//    res.sendFile(path.resolve(__dirname,'dist/trip-planner/index.html'));
-//});
+app.get('/training', (req, res) => {
+   res.sendFile(path.resolve(__dirname,'dist/omni-dev/index.html'));
+});
 
-//app.get('/trip-compare', (req, res) => {
-//    res.sendFile(path.resolve(__dirname,'dist/trip-planner/index.html'));
-//});
+app.get('/contact', (req, res) => {
+   res.sendFile(path.resolve(__dirname,'dist/omni-dev/index.html'));
+});
 
 //app.get('/view-trip', (req, res) => {
 //    res.sendFile(path.resolve(__dirname,'dist/trip-planner/index.html'));
