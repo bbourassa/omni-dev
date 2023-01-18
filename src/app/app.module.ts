@@ -10,6 +10,8 @@ import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { GeneralFitnessComponent } from './general-fitness/general-fitness.component';
+import { AthleticPerformanceComponent } from './athletic-performance/athletic-performance.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HttpClientModule } from '@angular/common/http';
     AboutUsComponent,
     ProgramsComponent,
     SpotlightComponent,
-    ContactComponent
+    ContactComponent,
+    GeneralFitnessComponent,
+    AthleticPerformanceComponent
   ],
   imports: [
     BrowserModule,

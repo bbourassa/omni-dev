@@ -15,13 +15,25 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-lg-auto">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href='' [ngClass]="{active: router.url === '/'}" class="nav-link smoothScroll">Home</a>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a href='/general-fitness' [ngClass]="{active: router.url === '/general-fitness'}" class="nav-link smoothScroll">General Fitness Programs</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href='/training' [ngClass]="{active: router.url === '/training'}" class="nav-link smoothScroll">Training</a>
+                        <a href='/athletic-performance' [ngClass]="{active: router.url === '/athletic-performance'}" class="nav-link smoothScroll">Athletic Performance Training</a>
                     </li>
+
+                    <!-- <li class="nav-item dropdown">
+                        <a href='#' class="nav-link dropdown-toggle smoothScroll" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+                          <div class="dropdown-menu" id="mainDropdown" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href='/general-fitness' [ngClass]="{active: router.url === '/general-fitness'}">GENERAL FITNESS PROGRAMS</a>
+                            <a class="dropdown-item" href='/athletic-performance' [ngClass]="{active: router.url === '/athletic-performance'}">ATHLETIC PERFORMANCE TRAINING</a>
+                          </div>
+                    </li> -->
 
                     <li class="nav-item">
                         <a href='/about-us' [ngClass]="{active: router.url === '/about-us'}" class="nav-link smoothScroll">About Us</a>

@@ -106,6 +106,14 @@ app.get('/contact', (req, res) => {
    res.sendFile(path.resolve(__dirname,'dist/omni-dev/index.html'));
 });
 
+app.get('/general-fitness', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'dist/omni-dev/index.html'))
+});
+
+app.get('/athletic-performance', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'dist/omni-dev/index.html'))
+});
+
 //app.get('/view-trip', (req, res) => {
 //    res.sendFile(path.resolve(__dirname,'dist/trip-planner/index.html'));
 //});
