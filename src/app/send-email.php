@@ -1,7 +1,13 @@
 <?php
 
-$name = $_POST["name"];
-$email = $_POST["email"];
-$subject = "Customer Inquiry";
-$message = $_POST["message"];
+if(isset($_POST['submit'])) {
+    $to = 'bnbourassa@gmail.com';
+    $subject='Customer Inquiry';
+    $txt = $POST['message'];
+    $email = $_POST['email'];
+    $sender=$_POST['name'];
+}
 
+mail($to, $subject, $txt, "From: $email");
+
+?>
