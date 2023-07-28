@@ -6,6 +6,8 @@
            
             <!-- <a class="navbar-brand" href="index.html"><span class="goldtext">OMNI</span>GYM</a> -->
 
+            
+
             <a href="" [ngClass]="{active: router.url === '/homepage'}"><img src="../assets/images/omnigym-big-logo.png" width="150" height="70"></a>
 
             <!-- <a class="navbar-brand" href="index.html"><img src="../assets/images/omnigym-big-logo.png" style="width:100px;height:42px;"></a> -->
@@ -26,7 +28,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href='/athletic-performance' [ngClass]="{active: router.url === '/athletic-performance'}" class="nav-link smoothScroll">Athletic Performance</a>
+                        <a href='/athletic-performance' [ngClass]="{active: router.url === '/athletic-performance'}" class="nav-link smoothScroll">Football Performance</a>
                     </li>
 
                     <!-- <li class="nav-item dropdown">
@@ -57,7 +59,7 @@
                 <ul class="social-icon ml-lg-3">
                     <li><a href="https://www.facebook.com/profile.php?id=100015153159445" class="fa fa-facebook"></a></li>
                     <li><a href="https://twitter.com/bnboura" class="fa fa-twitter"></a></li>
-                    <li><a href="https://www.instagram.com/bnboura/?hl=en" class="fa fa-instagram"></a></li>
+                    <li><a href="https://www.instagram.com/omnigym__/?hl=en" class="fa fa-instagram"></a></li>
                 </ul>
             </div>
 
@@ -88,14 +90,17 @@
                 </div>
             </div>
 
+            
+
             <div class="ml-auto col-lg-5 col-md-6 col-12">
                 <h2 class="mb-4 pb-2 contact-text"><span
                         class="goldtext">CONTACT </span>US</h2>
 
                 <h6>Send us an email: <a href="mailto:bnbourassa@gmail.com">bnbourassa@gmail.com</a></h6>
                 <h6>Call us at: 978-935-3875</h6>
+                
 
-                <form action="send-email.php" method="POST" enctype="multipart/form-data" name="EmailForm" class="contact-form webform" role="form">
+                <!-- <form action="/send-email.php" method="post" enctype="multipart/form-data" name="EmailForm" class="contact-form webform" role="form">
                     <input type="text" class="form-control" name="name" placeholder="Name">
 
                     <input type="email" class="form-control" name="email" placeholder="Email">
@@ -103,7 +108,7 @@
                     <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
 
                     <button type="submit" class="form-control" id="submit-button" name="submit" value="Submit">Send Message</button>
-                </form>
+                </form> -->
 
                     <div id="hours">
 
@@ -119,6 +124,8 @@
                           <strong class="mt-3 d-block hour-item">Saturday</strong>
 
                           <p>6:00 AM - 4:00 PM</p>
+
+                          <button type="submit" class="form-control" id="submit-button" name="submit" value="Submit">Check Availability</button>
                      </div>
                 <!--<form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)" class="contact-form webform" data-aos="fade-up" data-aos-delay="400"
                     role="form">

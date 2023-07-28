@@ -83,7 +83,15 @@ https://www.tooplate.com/view/2119-gymso-fitness
     /* font-family: var(--base-font-family); */
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin-top: 100px;
+  }
+
+  #titleText {
+    margin-top: -370px !important;
+  }
+
+  #trainingText {
+    margin-top: -30px !important;
   }
 
   h2 {
@@ -233,7 +241,15 @@ https://www.tooplate.com/view/2119-gymso-fitness
     background-size: cover;
     /* margin-top: 90px; */
     width: 100%;
-    height: 200px;
+    height: 360px;
+  }
+
+  .after2 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+    background-size: cover;
+    /* margin-top: 90px; */
+    width: 100%;
+    height: 90px;
   }
 
   /*---------------------------------------
@@ -424,7 +440,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/shutterstock_412095283.jpg');
+    background-image: url('../images/CONTACT_US.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -434,7 +450,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .banner-hero {
-    background-image: url('../images/depositphotos_53815625-stock-photo-weight-machines-in-a-gym.jpg');
+    background-image: url('../images/IMG_2664.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -443,7 +459,36 @@ https://www.tooplate.com/view/2119-gymso-fitness
     position: relative;
   }
 
-  
+  .banner-hero-programs {
+    background-image: url('../images/ABOUT_US.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 40vh;
+    position: relative;
+  }
+
+  .banner-hero-contact {
+    background-image: url('../images/CONTACT_US.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 40vh;
+    position: relative;
+  }
+
+  .banner-hero-about {
+    background-image: url('../images/IMG_2664.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 50vh;
+    position: relative;
+  }
+
 
 
   /*---------------------------------------
@@ -757,7 +802,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .mt-5, .my-5 {
-    margin-top: 7rem!important;
+    margin-top: 12rem!important;
   }
 
   /*---------------------------------------

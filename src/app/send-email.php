@@ -1,4 +1,12 @@
 <?php
+ini_set('display_errors', 'On');
+error_reporting(E_ALL);
+
+var_dump($_POST);
+
+if (isset($_POST['submit'])) {
+    echo "<pre";
+    print_r($_POST);}
 
 $to = 'bnbourassa@gmail.com';
 $subject='Customer Inquiry';
