@@ -138,6 +138,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
     letter-spacing: 0;
   }
 
+  .nostrong {
+    color: var(--about-bg-color);
+    font-weight: var(--font-weight-light);
+  }
+
   .section {
     padding: 7rem 0;
   }
@@ -487,6 +492,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
     vertical-align: middle;
     min-height: 50vh;
     position: relative;
+  }
+
+  .my-link {
+    text-decoration: underline;
   }
 
 
