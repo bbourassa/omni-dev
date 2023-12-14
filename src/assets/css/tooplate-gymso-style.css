@@ -338,6 +338,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
     padding: 3rem 0;
   }
 
+  .feature-athletic {
+    background: var(--dark-color);
+    padding: 0.5rem 0;
+  }
+
   .feature2 {
     background: var(--dark-color);
   }
@@ -541,8 +546,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
     position: relative;
   }
 
+  .banner-hero-athletic {
+    background-image: url('../images/Athletic\ Performance-Banner.jpeg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 40vh;
+    position: relative;
+  }
+
   .banner-hero-contact {
-    background-image: url('../images/CONTACT_US.jpg');
+    background-image: url('../images/IMG_2780.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
