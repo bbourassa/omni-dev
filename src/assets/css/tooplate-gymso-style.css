@@ -910,6 +910,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       font-size: 100px;
     }
 
+    .training-title {
+      font-size: 70px;
+    }
+
     .section {
       padding: 5rem 0;
     }
@@ -939,11 +943,15 @@ https://www.tooplate.com/view/2119-gymso-fitness
   @media screen and (max-width: 767px) {
 
     h1 {
-      font-size: 38px;
+      font-size: 58px;
+    }
+
+    .training-title {
+      font-size: 60px;
     }
 
     .website-title {
-      font-size: 38px;
+      font-size: 58px;
     }
 
     .about-working-hours {
