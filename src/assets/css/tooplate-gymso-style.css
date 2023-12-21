@@ -371,6 +371,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
     font-size: 65px;
   }
 
+  .athletic-title {
+    font-size: 65px;
+  }
+
   /*---------------------------------------
      MENU             
   -----------------------------------------*/
@@ -952,6 +956,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .gen-title {
       font-size: 56px;
+    }
+
+    .athletic-title {
+      font-size: 40px;
     }
 
     .website-title {
