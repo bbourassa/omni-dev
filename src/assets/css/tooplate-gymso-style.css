@@ -625,6 +625,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
     text-align: center;
   }
 
+  .genfitrow2 {
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+
 
   /*---------------------------------------
      SCHEDULE             
@@ -908,6 +913,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
+  @media screen and (min-width: 767px) {
+    .personal-train-mobile-view {
+      display: none;
+    }
+
+    .homepage-mobile-view {
+      display: none;
+    }
+  }
+
   @media screen and (max-width: 992px) {
 
     .website-title {
@@ -948,6 +963,14 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     h1 {
       font-size: 65px;
+    }
+
+    .homepage-computer-view {
+      display: none;
+    }
+
+    .personal-train-computer-view {
+      display: none;
     }
 
     .training-title {
