@@ -62,8 +62,15 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 
   body {
-    background: var(--white-color);
+    background: var(--dark-color);
     font-family: var(--base-font-family);
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  .navbar-expand-lg {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
 
@@ -342,6 +349,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
     padding: 3rem 0;
   }
 
+  .title-feature {
+    background: var(--dark-color);
+    padding: 3rem 0;
+  }
+
   .feature-athletic {
     background: var(--dark-color);
     padding: 0.5rem 0;
@@ -383,6 +395,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     /* background: #363636; */
     background: #989b9e;
     padding: 1rem;
+    overflow-x: hidden !important;
     /* border-bottom: solid var(--primary-color); */
   }
 
@@ -909,11 +922,638 @@ https://www.tooplate.com/view/2119-gymso-fitness
     margin-top: 12rem!important;
   }
 
+  .contact-mobile {
+    display: hidden !important;
+  }
+
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
 
+  /* iPhone 12 Sizing */
+  @media only screen and (min-width: 390px) and (max-width: 413px) {
+    .after {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      background-size: cover;
+    /* margin-top: 90px; */
+      width: 100%;
+      height: 695px;
+    }
+
+    .bg-overlay-home {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 30px;
+      margin-top: -33px;
+      opacity: 1;
+    }
+
+    .website-title {
+      font-size: 60px;
+    }
+
+    .title-feature {
+      margin-bottom: -100px;
+    }
+
+    .hero {
+      background-image: url('../images/homepage-mobile-2.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    .banner-hero-programs {
+      background-image: url(../images/General\ Fitness\ Page-Banner\ Option\ 1.jpg);
+      background-size: cover;
+      /* background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      margin-top: 20px;
+      position: relative; */
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
+    .after2 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 0.9), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: 150px;
+      height: 200px;
+      /* overflow:hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .after4 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 0.9), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: -202px;
+      height: 200px;
+      /* overflow:hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .bg-overlay {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 340px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
+    }
+
+    .bg-overlay-contact {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 340px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
+    }
+
+    .feature-athletic {
+      background: var(--dark-color);
+      margin-top: -42px;
+      /* padding: 3.0rem 0; */
+    }
+
+    .athletic-body {
+      margin-left: 15px;
+      margin-right: 5px;
+    }
+
+    .ath-img-col {
+      margin-bottom: 8px;
+    }
+
+    .bottom-img {
+      margin-bottom: -75px;
+    }
+
+    .bottom-feature {
+      margin-bottom: -85px;
+    }
+
+    .after3 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: -7px;
+      height: 246px;
+      /* overflow: hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .banner-hero-about {
+      background-image: url('../images/about-mobile.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 50vh;
+      position: relative;
+    }
+
+    .banner-hero-contact {
+      background-image: url('../images/contact-mobile.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+  }
+
+  /* iPhone SE Sizing */
+  @media only screen and (min-width: 375px) and (max-width: 389px) {
+    .hero {
+      background-image: url('../images/homepage-mobile-2.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    .after {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      background-size: cover;
+      /* margin-top: 90px; */
+      width: 100%;
+      height: 550px;
+    }
+
+    .banner-hero-programs {
+      background-image: url(../images/General\ Fitness\ Page-Banner\ Option\ 1.jpg);
+      background-size: cover;
+      /* background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      margin-top: 20px;
+      position: relative; */
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
+    .after2 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 0.9), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: 150px;
+      height: 200px;
+      /* overflow:hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .after4 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 0.9), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: -202px;
+      height: 200px;
+      /* overflow:hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .bg-overlay {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 340px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
+    }
+
+    .bg-overlay-contact {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 340px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
+    }
+
+    .feature-athletic {
+      background: var(--dark-color);
+      margin-top: -42px;
+      /* padding: 3.0rem 0; */
+    }
+
+    .athletic-body {
+      margin-left: 15px;
+      margin-right: 5px;
+    }
+
+    .ath-img-col {
+      margin-bottom: 8px;
+    }
+
+    .bottom-img {
+      margin-bottom: -75px;
+    }
+
+    .bottom-feature {
+      margin-bottom: -85px;
+    }
+
+    .after3 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: -7px;
+      height: 166px;
+      /* overflow: hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .banner-hero-about {
+      background-image: url('../images/about-mobile.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 50vh;
+      position: relative;
+    }
+
+    .banner-hero-contact {
+      background-image: url('../images/contact-mobile.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+    
+    .website-title {
+      font-size: 65px;
+    }
+  }
+
+  /* Nest Hub Max Sizing */
+  @media screen and (min-width: 1280px) {
+    .after {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      background-size: cover;
+      /* margin-top: 90px; */
+      width: 100%;
+      height: 620px;
+    }
+  }
+
+  /* Samsung Galaxy A51/71 Sizing */
+  @media screen and (min-width: 415px) {
+    .after {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      background-size: cover;
+      /* margin-top: 90px; */
+      width: 100%;
+      height: 730px;
+    }
+  } 
+
+  /* iPhone 14 Pro Sizing */
+  @media screen and (min-width: 430px) {
+
+    .feature-athletic {
+      background: var(--dark-color);
+      margin-top: -42px;
+      /* padding: 3.0rem 0; */
+    }
+
+    .athletic-body {
+      margin-left: 15px;
+      margin-right: 5px;
+    }
+
+    .ath-img-col {
+      margin-bottom: 8px;
+    }
+
+    .bottom-img {
+      margin-bottom: -75px;
+    }
+
+    .bottom-feature {
+      margin-bottom: -85px;
+    }
+
+    .after2 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 0.9), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: 150px;
+      height: 252px;
+      /* overflow:hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .bg-overlay {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 385px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
+    }
+
+    .bg-overlay-home {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 20px;
+      opacity: 1;
+    }
+
+    .hero {
+      background-image: url(../images/homepage-mobile.jpg);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      max-height: 57vh;
+      position: relative;
+    }
+
+    .after {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      background-size: cover;
+      /* margin-top: 90px; */
+      margin-bottom: -50px;
+      width: 100%;
+      height: 740px;
+    }
+
+    .title-feature {
+      margin-bottom: -100px;
+    }
+
+    .genfithome {
+      width: 390px;
+      height: 440px;
+    }
+
+    .website-title {
+      font-size: 72px;
+    }
+
+    .after3 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: -7px;
+      height: 285px;
+      /* overflow: hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .bg-overlay-contact {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 337px;
+    width: 100%;
+    height: 30px;
+    opacity: 1;
+    }
+
+    .after4 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 0.9), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: -199px;
+      height: 204px;
+    /* overflow: hidden; */
+    /* opacity: 0.95; */
+    /* background-clip: text;*/
+    }
+
+    .athletic-body {
+      margin-left: 15px;
+      margin-right: 5px;
+    }
+  }
+
+  /* iPhone XR Sizing */
+  @media screen and (min-width: 414px) and (max-width: 429px) {
+
+    .bg-overlay {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 340px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
+    }
+
+    .after2 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 0.9), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: 150px;
+      height: 200px;
+      /* overflow:hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    .feature-athletic {
+      background: var(--dark-color);
+      margin-top: -42px;
+      /* padding: 3.0rem 0; */
+    }
+
+    .athletic-body {
+      margin-left: 15px;
+      margin-right: 5px;
+    }
+
+    .ath-img-col {
+      margin-bottom: 8px;
+    }
+
+    .bottom-img {
+      margin-bottom: -75px;
+    }
+
+    .bottom-feature {
+      margin-bottom: -85px;
+    }
+
+    /*////////*/
+    .bg-overlay-home {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 20px;
+      opacity: 1;
+    }
+
+    .hero {
+      background-image: url(../images/homepage-mobile.jpg);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      max-height: 57vh;
+      position: relative;
+    }
+
+    .after {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      background-size: cover;
+      /* margin-top: 90px; */
+      margin-bottom: -50px;
+      width: 100%;
+      height: 740px;
+    }
+
+    .title-feature {
+      margin-bottom: -100px;
+    }
+
+    .genfithome {
+      width: 380px;
+      height: 430px;
+    }
+
+    .website-title {
+      font-size: 72px;
+    }
+
+    .after3 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: -7px;
+      height: 261px;
+      /* overflow: hidden; */
+      /* opacity: 0.95; */
+      /* background-clip: text; */
+    }
+
+    /* .bg-overlay {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+      /* position: absolute; */
+      /* top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 420px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
+    } */ 
+
+    .bg-overlay-contact {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 339px;
+    width: 100%;
+    height: 30px;
+    opacity: 1;
+    }
+
+    .after4 {
+      background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 0.9), #989b9e);
+      background-size: cover;
+      width: 100%;
+      margin-top: -199px;
+      height: 200px;
+    /* overflow: hidden; */
+    /* opacity: 0.95; */
+    /* background-clip: text;*/
+    }
+
+    .athletic-body {
+      margin-left: 15px;
+      margin-right: 5px;
+    }
+    
+    
+  }
+
+  /*Surface Duo*/ 
+  @media screen and (min-width: 540px) {
+
+  } 
+
   @media screen and (min-width: 767px) {
+
+    .contact-mobile {
+      display: none;
+    }
+
     .personal-train-mobile-view {
       display: none;
     }
@@ -935,9 +1575,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   @media screen and (max-width: 992px) {
 
-    .website-title {
+    /* .website-title {
       font-size: 100px;
-    }
+    } */
 
     .training-title {
       font-size: 70px;
@@ -975,6 +1615,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       font-size: 65px;
     }
 
+    .contact {
+      display: none;
+    }
+
     .hero {
       background-image: url('../images/homepage-mobile.jpg');
       background-size: cover;
@@ -1005,9 +1649,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
       font-size: 40px;
     }
 
-    .website-title {
+    /* .website-title {
       font-size: 58px;
-    }
+    } */
 
     .about-working-hours {
       border-left: 0;
