@@ -921,6 +921,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .homepage-mobile-view {
       display: none;
     }
+
+    .hero {
+      background-image: url('../images/CONTACT_US.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 100vh;
+      position: relative;
+    }
   }
 
   @media screen and (max-width: 992px) {
@@ -963,6 +973,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     h1 {
       font-size: 65px;
+    }
+
+    .hero {
+      background-image: url('../images/homepage-mobile.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 100vh;
+      position: relative;
     }
 
     .homepage-computer-view {
