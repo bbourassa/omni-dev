@@ -87,7 +87,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     font-size: var(--h1-font-size);
     font-weight: 100;
     font-family: 'Jersey 716', sans-serif;
-    /* font-family: var(--base-font-family); */
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 100px;
@@ -107,9 +106,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   h2 {
     font-size: var(--h2-font-size);
-    /* letter-spacing: 10rem; */
     font-weight: var(--font-weight-bold);
-    /* font-family: 'Jersey 716', sans-serif; */
     font-family: var(--base-font-family);
     letter-spacing: 1px;
   }
@@ -159,7 +156,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .genfithome {
-    /* padding-left: 100px; */
     padding-right: 0px;
   }
 
@@ -301,7 +297,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
   .after {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
     background-size: cover;
-    /* margin-top: 90px; */
     width: 100%;
     height: 560px;
   }
@@ -314,8 +309,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     height: 200px;
     padding-top: 100px !important;
     overflow:hidden;
-    /* opacity: 0.95; */
-    /* background-clip: text; */
   }
 
   /*---------------------------------------
@@ -343,8 +336,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .profile-img {
-      /*max-width: 20rem;
-      max-height:*/
       margin-top: 10px;
       margin-bottom: 10px;
   }
@@ -402,11 +393,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .navbar {
-    /* background: #363636; */
     background: #989b9e;
     padding: 1rem;
     overflow-x: hidden !important;
-    /* border-bottom: solid var(--primary-color); */
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -525,10 +514,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     width: 30px;
     height: 2px;
     content: '';
-  }
-
-  .header-info {
-    /* margin-top: 1px; */
   }
 
   .navbar-toggler .navbar-toggler-icon::before {
@@ -738,19 +723,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
   .front-img {
     padding-left: 8.5rem;
   }
-
-  /* .pilars {
-    /* border-right: 2px solid; */
-    /* padding-left: 3.5rem; */
   
-
   .prog-row {
     margin-bottom: 50px;
   }
-
-  /*.about-text {
-    padding-left: 3.5rem;
-  }*/
 
   .about-working-hours strong {
     color: var(--white-color);
@@ -804,7 +780,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   .contact {
       background-color: var(--dark-color);
-      /* border-bottom: 1px solid #efebeb; */
   }
 
   .contact-text {
@@ -859,7 +834,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .site-footer {
-    /* border-top: 1px solid #efebeb; */
     padding: 1rem 0;
     background-color: var(--dark-color);
   }
@@ -877,11 +851,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
   .site-footer .fa {
     color: var(--primary-color);
   }
-
-  /* #bottomFoot {
-    /* border-top: 1px solid #efebeb; 
-    padding: 3rem 0;
-  } */
 
   /*---------------------------------------
      SOCIAL ICON              
@@ -1006,12 +975,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .banner-hero-programs {
       background-image: url(../images/General\ Fitness\ Page-Banner\ Option\ 1.jpg);
       background-size: cover;
-      /* background-position: top;
-      background-repeat: no-repeat;
-      vertical-align: middle;
-      min-height: 40vh;
-      margin-top: 20px;
-      position: relative; */
       background-size: cover;
       background-position: top;
       background-repeat: no-repeat;
@@ -1026,9 +989,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 200px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .after4 {
@@ -1037,14 +997,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top:  153px;
       height: 200px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1057,7 +1013,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1071,7 +1026,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -1097,9 +1051,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -7px;
       height: 216px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .banner-hero-about {
@@ -1128,7 +1079,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1168,7 +1118,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1207,7 +1156,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       width: 100%;
       height: 558px;
     }
@@ -1215,12 +1163,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .banner-hero-programs {
       background-image: url(../images/General\ Fitness\ Page-Banner\ Option\ 1.jpg);
       background-size: cover;
-      /* background-position: top;
-      background-repeat: no-repeat;
-      vertical-align: middle;
-      min-height: 40vh;
-      margin-top: 20px;
-      position: relative; */
       background-size: cover;
       background-position: top;
       background-repeat: no-repeat;
@@ -1235,9 +1177,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 200px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .after4 {
@@ -1246,14 +1185,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 202px;
       height: 200px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1270,7 +1205,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1284,7 +1218,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -1310,9 +1243,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -7px;
       height: 166px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .banner-hero-about {
@@ -1325,16 +1255,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       position: relative;
     }
 
-    /* .banner-hero-contact {
-      background-image: url('../images/contact-mobile.jpg');
-      background-size: cover;
-      background-position: top;
-      background-repeat: no-repeat;
-      vertical-align: middle;
-      min-height: 40vh;
-      position: relative;
-    }
-     */
     .website-title {
       font-size: 65px;
     }
@@ -1354,7 +1274,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
       background-size: cover;
-    /* margin-top: 90px; */
       width: 100%;
       height: 695px;
     }
@@ -1385,7 +1304,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1417,12 +1335,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .banner-hero-programs {
       background-image: url(../images/General\ Fitness\ Page-Banner\ Option\ 1.jpg);
       background-size: cover;
-      /* background-position: top;
-      background-repeat: no-repeat;
-      vertical-align: middle;
-      min-height: 40vh;
-      margin-top: 20px;
-      position: relative; */
       background-size: cover;
       background-position: top;
       background-repeat: no-repeat;
@@ -1437,9 +1349,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 200px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .after4 {
@@ -1448,14 +1357,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 191px;
       height: 200px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1468,7 +1373,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1482,7 +1386,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -1508,9 +1411,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -7px;
       height: 246px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .banner-hero-about {
@@ -1586,7 +1486,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1603,15 +1502,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 200px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -1634,7 +1529,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     /*////////*/
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1657,7 +1551,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 740px;
@@ -1682,35 +1575,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -7px;
       height: 279px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
-
-    /* .bg-overlay {
-      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
-      /* top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      margin-top: 420px;
-      width: 100%;
-      height: 30px;
-      opacity: 1;
-    } */ 
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 1), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -114px;
-    width: 100%;
-    height: 100px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: -114px;
+      width: 100%;
+      height: 100px;
+      opacity: 1;
     }
 
     .after4 {
@@ -1719,9 +1595,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 201px;
       height: 200px;
-    /* overflow: hidden; */
-    /* opacity: 0.95; */
-    /* background-clip: text;*/
     }
 
     .athletic-body {
@@ -1774,7 +1647,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1791,15 +1663,11 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 200px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -1822,7 +1690,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     /*////////*/
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -1845,7 +1712,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 740px;
@@ -1870,35 +1736,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -7px;
       height: 261px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
-
-    /* .bg-overlay {
-      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
-      /* top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      margin-top: 420px;
-      width: 100%;
-      height: 30px;
-      opacity: 1;
-    } */ 
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: 339px;
-    width: 100%;
-    height: 30px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: 339px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
     }
 
     .after4 {
@@ -1907,9 +1756,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -199px;
       height: 200px;
-    /* overflow: hidden; */
-    /* opacity: 0.95; */
-    /* background-clip: text;*/
     }
 
     .athletic-body {
@@ -1951,7 +1797,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .contact {
@@ -1985,14 +1830,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 252px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2005,7 +1846,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2028,7 +1868,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 740px;
@@ -2053,22 +1892,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -7px;
       height: 285px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -37px;
-    width: 100%;
-    height: 30px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: -37px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
     }
 
     .after4 {
@@ -2077,9 +1912,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 184px;
       height: 204px;
-    /* overflow: hidden; */
-    /* opacity: 0.95; */
-    /* background-clip: text;*/
     }
 
     .athletic-body {
@@ -2122,10 +1954,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       min-height: 40vh;
       position: relative;
     }
-
-    /* .contact-mobile {
-      display: none !important;
-    } */
 
     h1 {
       font-size: 65px;
@@ -2182,7 +2010,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -2208,14 +2035,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 262px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2228,7 +2051,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2251,7 +2073,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 810px;
@@ -2276,22 +2097,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -7px;
       height: 345px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -50px;
-    width: 100%;
-    height: 30px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: -50px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
     }
 
     .after4 {
@@ -2300,9 +2117,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -199px;
       height: 604px;
-    /* overflow: hidden; */
-    /* opacity: 0.95; */
-    /* background-clip: text;*/
     }
 
     .athletic-body {
@@ -2332,15 +2146,14 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -51px;
-    width: 100%;
-    height: 30px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: -51px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
     }
 
     .banner-hero-contact {
@@ -2386,7 +2199,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -2412,14 +2224,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 325px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2432,7 +2240,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2455,7 +2262,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0), rgba(152, 155, 158, 0), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 976px;
@@ -2480,15 +2286,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -7px;
       height: 405px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
-    }
-
-    .bg-overlay-contact {
-      /* display: none;
-      
-      */
     }
 
     .after4 {
@@ -2497,9 +2294,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -199px;
       height: 672px;
-    /* overflow: hidden; */
-    /* opacity: 0.95; */
-    /* background-clip: text;*/
     }
 
     .athletic-body {
@@ -2522,9 +2316,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* Surface Pro 7 */
   @media screen and (min-width: 912px) and (max-width: 1022px) {
-    /* .bg-overlay-contact {
-      display: none;
-    } */
 
     .banner-hero-contact {
       background-image: url('../images/IMG_2780_AIR.jpg');
@@ -2569,7 +2360,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -2595,14 +2385,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 508px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2615,7 +2401,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2638,7 +2423,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 1147px;
@@ -2667,9 +2451,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 102px;
       height: 405px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .learn-more-btn {
@@ -2715,22 +2496,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -199px;
       height: 747px;
-    /* overflow: hidden; */
-    /* opacity: 0.95; */
-    /* background-clip: text;*/
     }
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -51px;
-    width: 100%;
-    height: 30px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: -51px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
     }
   }
 
@@ -2746,10 +2523,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       min-height: 40vh;
       position: relative;
     }
-
-    /* .bg-overlay-contact {
-      display: none;
-    } */
 
     .col-sm-7 {
       -ms-flex: 0 0 58.333333%;
@@ -2784,7 +2557,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -2810,14 +2582,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 508px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2830,7 +2598,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -2853,7 +2620,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 1147px;
@@ -2882,9 +2648,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 102px;
       height: 405px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .learn-more-btn {
@@ -2930,22 +2693,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -199px;
       height: 747px;
-    /* overflow: hidden; */
-    /* opacity: 0.95; */
-    /* background-clip: text;*/
     }
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -51px;
-    width: 100%;
-    height: 30px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: -51px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
     }
   }
 
@@ -2953,20 +2712,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -51px;
-    width: 100%;
-    height: 30px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: -51px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
     }
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 908px;
@@ -2991,9 +2748,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* iPad Pro */
   @media screen and (min-width: 1024px) and (max-width: 1033px) {
-    /* .bg-overlay-contact {
-      display: none;
-    } */
 
     .col-sm-7 {
       -ms-flex: 0 0 58.333333%;
@@ -3028,7 +2782,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .feature-athletic {
       background: var(--dark-color);
       margin-top: -42px;
-      /* padding: 3.0rem 0; */
     }
 
     .athletic-body {
@@ -3054,14 +2807,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 150px;
       height: 508px;
-      /* overflow:hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .bg-overlay {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -3074,7 +2823,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .bg-overlay-home {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0.5), rgba(152, 155, 158, 1), #989b9e);
-      /* position: absolute; */
       top: 0;
       right: 0;
       bottom: 0;
@@ -3097,7 +2845,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
     .after {
       background-image: linear-gradient(to bottom, rgba(152, 155, 158, 0), rgba(152, 155, 158, 0), rgba(152, 155, 158, 1), #989b9e);
       background-size: cover;
-      /* margin-top: 90px; */
       margin-bottom: -50px;
       width: 100%;
       height: 1147px;
@@ -3126,9 +2873,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: 102px;
       height: 405px;
-      /* overflow: hidden; */
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
 
     .learn-more-btn {
@@ -3174,22 +2918,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       width: 100%;
       margin-top: -199px;
       height: 747px;
-    /* overflow: hidden; */
-    /* opacity: 0.95; */
-    /* background-clip: text;*/
     }
 
     .bg-overlay-contact {
       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
-    /* position: absolute; */
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-top: -51px;
-    width: 100%;
-    height: 30px;
-    opacity: 1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin-top: -51px;
+      width: 100%;
+      height: 30px;
+      opacity: 1;
     }
   }
 
@@ -3255,8 +2995,6 @@ https://www.tooplate.com/view/2119-gymso-fitness
       height: 252px;
       padding-top: 100px !important;
       overflow: hidden;
-      /* opacity: 0.95; */
-      /* background-clip: text; */
     }
   }
 
