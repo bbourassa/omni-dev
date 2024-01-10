@@ -164,6 +164,17 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   @media (min-width: 768px) {
+    
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_1024.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
   .col-gen-home {
     margin-left: 100px;
     -ms-flex: 0 0 41.666667%;
@@ -931,6 +942,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /*Samsung Galaxy S8+*/ 
   @media only screen and (min-width: 360px) and (max-width: 374px) {
+    .banner-hero-athletic {
+      background-image: url('../images/Athletic\ Performance-Banner_SE.jpeg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
     .contact {
       display: none;
     }
@@ -1121,6 +1142,25 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* iPhone SE Sizing */
   @media only screen and (min-width: 375px) and (max-width: 389px) {
+    .banner-hero-athletic {
+      background-image: url('../images/Athletic\ Performance-Banner_SE.jpeg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_SE.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
 
     .section {
       padding: 1rem 0;
@@ -1285,7 +1325,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
       position: relative;
     }
 
-    .banner-hero-contact {
+    /* .banner-hero-contact {
       background-image: url('../images/contact-mobile.jpg');
       background-size: cover;
       background-position: top;
@@ -1294,7 +1334,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
       min-height: 40vh;
       position: relative;
     }
-    
+     */
     .website-title {
       font-size: 65px;
     }
@@ -1500,6 +1540,26 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* Pixel 17 Sizing */
   @media screen and (min-width: 412px) and (max-width: 413px) {
+    .banner-hero-athletic {
+      background-image: url('../images/Athletic\ Performance-Banner_SE.jpeg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_XR.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+    
     .contact {
       display: none;
     }
@@ -1672,6 +1732,25 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* iPhone XR Sizing */
   @media screen and (min-width: 414px) and (max-width: 429px) {
+    .banner-hero-athletic {
+      background-image: url('../images/Athletic\ Performance-Banner_SE.jpeg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_XR.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
 
     .section {
       padding: 1rem 0;
@@ -1845,6 +1924,25 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* iPhone 14 Pro Sizing */
   @media screen and (min-width: 430px) and (max-width: 767px) {
+    .banner-hero-athletic {
+      background-image: url('../images/Athletic\ Performance-Banner_SE.jpeg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_XR.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
 
     .section {
       padding: 1rem 0;
@@ -2004,6 +2102,26 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* iPad Mini */
   @media screen and (min-width: 768px) and (max-width: 819px) {
+    
+    .banner-hero-athletic {
+      background-image: url('../images/Athletic\ Performance-Banner_MINI.jpeg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_1024.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
 
     /* .contact-mobile {
       display: none !important;
@@ -2089,7 +2207,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
       background-size: cover;
       width: 100%;
       margin-top: 150px;
-      height: 252px;
+      height: 262px;
       /* overflow:hidden; */
       /* opacity: 0.95; */
       /* background-clip: text; */
@@ -2211,6 +2329,30 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* iPad Air */
   @media screen and (min-width: 820px) and (max-width: 911px) {
+
+    .bg-overlay-contact {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #989b9e);
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: -51px;
+    width: 100%;
+    height: 30px;
+    opacity: 1;
+    }
+
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_AIR.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
     .col-sm-7 {
       -ms-flex: 0 0 58.333333%;
       flex: 0 0 58.333333%;
@@ -2344,7 +2486,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
 
     .bg-overlay-contact {
-      display: none;
+      /* display: none;
+      
+      */
     }
 
     .after4 {
@@ -2381,6 +2525,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
     /* .bg-overlay-contact {
       display: none;
     } */
+
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_AIR.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
 
     .col-sm-7 {
       -ms-flex: 0 0 58.333333%;
@@ -2582,6 +2736,17 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /* iPad Pro */
   @media screen and (min-width: 1024px) and (max-width: 1033px) {
+
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_AIR.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
+    }
+
     /* .bg-overlay-contact {
       display: none;
     } */
@@ -3092,5 +3257,18 @@ https://www.tooplate.com/view/2119-gymso-fitness
       overflow: hidden;
       /* opacity: 0.95; */
       /* background-clip: text; */
+    }
+  }
+
+  /*comp screen */
+  @media screen and (min-width: 1024px) and (min-height: 768px) {
+    .banner-hero-contact {
+      background-image: url('../images/IMG_2780_1024.jpg');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 40vh;
+      position: relative;
     }
   }
