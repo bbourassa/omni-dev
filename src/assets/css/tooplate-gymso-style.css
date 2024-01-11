@@ -2407,7 +2407,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   }
 
-  @media screen and (min-width: 1280px) and (min-height: 1020px) {
+  @media screen and (min-width: 1280px) {
     #genFitText {
       margin-left: -20% !important;
       margin-right: -70% !important;
@@ -2630,7 +2630,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   /* comp screen */
-  @media screen and (min-width: 1034px) and (max-width: 1200px) and (max-height: 1169px) {
+  @media screen and (min-width: 1034px) and (max-width: 1099px) {
     .website-title {
       font-size: 150px;
     }
@@ -2687,6 +2687,95 @@ https://www.tooplate.com/view/2119-gymso-fitness
     #contactText {
       margin-left: -20% !important;
       margin-right: -70% !important;
+      margin-top: -256px !important;
+    }
+
+    .gen-title-contact {
+      font-size: 90px;
+      padding-top: 80px;
+    }
+
+    #titleText {
+      margin-left: -6% !important;
+      margin-right: -56% !important;
+      margin-top: -425px !important;
+      margin-bottom: 120px;
+    }
+
+    .website-title {
+      margin-left: 35px;
+    }
+
+    .title-desc {
+      font-size: 38px;
+      margin-left: 35px;
+      margin-top: -50px;
+    }
+
+    .learn-more-btn {
+      font-size: 24px;
+      margin-left: 35px;
+    }
+  }
+
+  /* comp screen */
+  @media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .website-title {
+      font-size: 150px;
+    }
+
+    .title-desc {
+      margin-top: 30px;
+      font-size: 27px;
+    }
+
+    .training-title {
+      margin-top: -38px;
+      font-size: 60px;
+      margin-bottom: -20px;
+    }
+
+    .homepage-mobile-view {
+      display: none;
+    }
+
+    .personal-train-mobile-view {
+      display: none;
+    }
+
+    .about-row {
+      margin-top: -100px;
+    }
+
+    #genFitText {
+      margin-left: -15%;
+      margin-right: -65%;
+      margin-top: -276px;
+    }
+
+    .gen-title {
+      font-size: 75px;
+      padding-top: 96px;
+    }
+
+    .gen-title-athletic {
+      font-size: 65px;
+      padding-top: 110px;
+    }
+    #aboutText {
+      margin-left: -15% !important;
+      margin-right: -65% !important;
+      margin-top: -257px !important;
+    }
+    
+    .gen-title-about {
+      font-size: 90px;
+      padding-top: 80px;
+    }
+
+    #contactText {
+      margin-left: -15% !important;
+      margin-right: -765% !important;
       margin-top: -256px !important;
     }
 
