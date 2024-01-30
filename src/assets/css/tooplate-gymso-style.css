@@ -963,6 +963,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
   /*Samsung Galaxy S8+*/ 
   @media only screen and (min-width: 360px) and (max-width: 374px) {
+
     .banner-hero-athletic {
       background-image: url('../images/Athletic\ Performance-Banner_SE.jpeg');
       background-size: cover;
@@ -987,7 +988,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .gen-title {
       font-size: 50px;
-      padding-top: 125px;
+      padding-top: 99px;
     }
 
     .athletic-title {
@@ -1074,7 +1075,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
       font-size: 65px;
     }
     .contact-mobile {
-      margin-top: 0px;
+      margin-top: 7px;
     }
 
     .athletic-feature {
@@ -1120,7 +1121,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
 
     .contact-mobile {
-      margin-top: -24px;
+      margin-top: 7px;
     }
 
     .banner-hero-contact {
@@ -1143,7 +1144,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
     .gen-title {
       font-size: 50px;
-      padding-top: 125px;
+      padding-top: 111px;
     }
 
     .athletic-feature {
@@ -1181,7 +1182,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
       background-position: top;
       background-repeat: no-repeat;
       vertical-align: middle;
-      min-height: 40vh;
+      min-height: 52vh;
       position: relative;
     }
 
@@ -1534,17 +1535,21 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
 
     #aboutText {
-      margin-top: -50% !important;
+      margin-top: -60% !important;
     }
 
     .gen-title-about {
-      padding-top: 10px;
+      padding-top: 25px;
       font-size: 60px;
     }
 
     .gen-title-contact {
       padding-top: 20px;
       font-size: 55px;
+    }
+
+    #genFitText {
+      margin-top: -297px !important;
     }
   }
 
@@ -1670,6 +1675,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
      .gen-title-about {
       padding-top: 75px;
       font-size: 55px;
+     }
+
+     .contact-mobile {
+      margin-top: 7px;
      }
   }
 
@@ -1799,6 +1808,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
       font-size: 60px;
       padding-top: 116px;
      }
+
+    #genFitText {
+      margin-top: -292px !important;
+    }
   }
 
   @media screen and (min-width: 575px) and (max-width: 767px) {
@@ -2135,7 +2148,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
 
     .gen-title-athletic {
-      font-size: 55px;
+      font-size: 53px;
       padding-top: 125px;
     }
 
@@ -2158,7 +2171,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
 
     #genFitText {
-      margin-top: -286px !important;
+      margin-top: -311px !important;
     }
 
     .titleRow {
@@ -2609,6 +2622,14 @@ https://www.tooplate.com/view/2119-gymso-fitness
       font-size: 90px;
       padding-top: 80px;
     }
+
+    .website-title {
+      font-size: 150px;
+    }
+
+    .title-desc {
+      font-size: 35px !important;
+    }
   }
 
 
@@ -2691,7 +2712,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
 
     .website-title {
-      font-size: 170px;
+      font-size: 150px;
     }
 
     .learn-more-btn {
@@ -2754,7 +2775,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
 
     #titleText {
-      margin-top: -425px !important;
+      margin-top: -338px !important;
     }
 
     .website-title {
@@ -2762,7 +2783,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     }
 
     .title-desc {
-      font-size: 38px;
+      font-size: 32px;
       margin-left: 35px;
     }
 
